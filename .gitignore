@@ -20,3 +20,6 @@
 
 # Tmp
 Rplots.pdf
+
+Gemfile.lock
+vendor/bundle

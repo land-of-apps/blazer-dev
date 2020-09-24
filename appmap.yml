@@ -1,0 +1,5 @@
+name: blazer-dev
+packages:
+- path: app/controllers
+- path: app/helpers
+- path: app/models

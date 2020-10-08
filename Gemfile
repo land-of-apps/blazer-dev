@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'appmap', github: 'applandinc/appmap-ruby', branch: 'master'
+gem 'cucumber-rails', '~> 1.6.0', require: false # require: false is needed for cucumber-rails
+gem 'capybara'
 
 gem 'dotenv-rails', groups: [:development, :test]
 

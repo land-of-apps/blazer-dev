@@ -4,7 +4,7 @@ gem "appmap", github: "applandinc/appmap-ruby", branch: "master"
 gem "cucumber-rails", "~> 1.6.0", require: false # require: false is needed for cucumber-rails
 gem "capybara"
 gem "selenium-webdriver"
-gem "webdrivers"
+gem "webdrivers", require: false
 gem "rspec-expectations"
 
 gem "rufo"
@@ -66,3 +66,6 @@ gem "unicorn"
 gem "listen", group: [:development]
 
 gem "bootsnap", ">= 1.1.0", require: false
+group :development do
+  gem  "pry-byebug"
+end

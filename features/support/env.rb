@@ -3,6 +3,7 @@ require "appmap/cucumber"
 require "capybara"
 require "selenium/webdriver"
 require "capybara/cucumber"
+require "webdrivers"
 
 Capybara.default_max_wait_time = 10
 Capybara.default_driver = :selenium_chrome

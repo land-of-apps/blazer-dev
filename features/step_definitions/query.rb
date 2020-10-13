@@ -18,8 +18,7 @@ end
 
 When(/^I fill out "new query" form and click "create"$/) do
 
-  #find_field(id: 'query_statement', type: :hidden).set('testing1')
-  first("input#query_statement", visible: false).set("testing2")
+  page.execute_script('document.querySelector("#query_statement").value="testing"')
 
   # select a table from dropdown menu to autofill query
   # unable to access hidden element with capybara

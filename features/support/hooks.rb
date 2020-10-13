@@ -1,5 +1,5 @@
 if AppMap::Cucumber.enabled?
-  Around('not @appmap-disable') do |scenario, block|
+  Around("not @appmap-disable") do |scenario, block|
     appmap = AppMap.record do
       block.call
     end

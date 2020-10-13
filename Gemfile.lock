@@ -216,6 +216,7 @@ GEM
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
     rubyzip (2.3.0)
+    rufo (0.12.0)
     safely_block (0.3.0)
       errbase (>= 0.1.1)
     sass-rails (6.0.0)
@@ -285,6 +286,7 @@ DEPENDENCIES
   rails_12factor
   rollbar
   rspec-expectations
+  rufo
   sass-rails
   sdoc
   selenium-webdriver

@@ -18,7 +18,7 @@ end
   Blazer::Query,
   Blazer::Dashboard,
   Blazer::DashboardQuery,
-  Blazer::Check
+  Blazer::Check,
 ].each do |model|
   model.send(:include, DemoModel)
 end

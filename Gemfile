@@ -5,6 +5,7 @@ gem 'cucumber-rails', '~> 1.6.0', require: false # require: false is needed for 
 gem 'capybara'
 gem 'selenium-webdriver'
 gem 'webdrivers'
+gem 'rspec-expectations'
 
 gem 'dotenv-rails', groups: [:development, :test]
 

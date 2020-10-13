@@ -211,6 +211,10 @@ GEM
     rdoc (6.2.1)
     regexp_parser (1.8.1)
     rollbar (3.0.0)
+    rspec-expectations (3.9.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.3)
     rubyzip (2.3.0)
     safely_block (0.3.0)
       errbase (>= 0.1.1)
@@ -280,6 +284,7 @@ DEPENDENCIES
   rails (~> 5.2.0)
   rails_12factor
   rollbar
+  rspec-expectations
   sass-rails
   sdoc
   selenium-webdriver

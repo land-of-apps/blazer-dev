@@ -2,4 +2,7 @@ name: blazer-dev
 packages:
 - path: app/controllers
 - path: app/helpers
+- path: app/mailers
 - path: app/models
+- path: config
+- path: features

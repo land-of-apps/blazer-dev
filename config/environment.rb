@@ -1,3 +1,6 @@
+require 'appmap'
+require 'blazer'
+
 # Load the Rails application.
 require_relative "application"
 

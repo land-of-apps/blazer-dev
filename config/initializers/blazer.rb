@@ -1,3 +1,7 @@
+STDERR.puts "+++ blazer.rb"
+STDERR.puts Kernel.caller.join("\n")
+STDERR.puts "==="
+
 module DemoModel
   extend ActiveSupport::Concern
 

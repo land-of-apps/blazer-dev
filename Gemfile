@@ -36,7 +36,7 @@ gem "sdoc", group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 # gem 'spring', group: :development
 
-gem "blazer", path: "../blazer"
+gem "blazer", path: "../blazer", require: false
 # gem 'blazer', github: 'ankane/blazer'
 
 gem "foreman", group: :development

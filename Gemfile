@@ -7,6 +7,7 @@ gem "selenium-webdriver"
 gem "webdrivers", require: false
 gem "rspec-expectations"
 
+gem "faraday"
 gem "rufo"
 
 gem "dotenv-rails", groups: [:development, :test]

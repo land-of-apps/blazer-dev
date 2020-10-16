@@ -284,6 +284,7 @@ DEPENDENCIES
   cucumber-rails (~> 1.6.0)
   dalli
   dotenv-rails
+  faraday
   foreman
   jbuilder
   jquery-rails

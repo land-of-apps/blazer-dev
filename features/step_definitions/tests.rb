@@ -19,13 +19,15 @@ end
 
 # TODO
 When(/^I fill out "new check" form and click "save"$/) do
+  find("selectize-control single").click()
+  find("div", :text => /\Aoption\z/).click()
   # Choose Query
 
   # can't interact with dropdown bc elements are in script
   # unsure how to access
-  page.execute_script("document.querySelector('#check_query_id').value='10'")
+  #page.execute_script("document.querySelector('#check_query_id').value='10'")
   #select("Check for Bad Data", from: "selectize-dropdown single")
-  click_button("Save")
+  click_button("DOES NOT EXIST")
 end
 
 #TODO
